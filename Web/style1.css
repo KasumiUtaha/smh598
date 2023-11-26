@@ -1,0 +1,66 @@
+/* CSS Document */
+
+	.image1
+	{
+		transform: translate(0px, 75px);
+		width: 609px;
+		height: 667px;	
+		float: left;
+	}
+
+
+	.text
+	{
+		transform: translate(10px , 75px);
+		
+	}
+
+	.title
+	{
+		color: rgba(238,72,102,1.00);
+	}
+
+	.Passage
+	{
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		color: rgba(236,118,150,1.00);	
+		font-size: 20px;
+	}
+
+nav {
+	position: fixed;
+  top: 0;
+  left: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+	margin: 0;
+    display: flex; 
+}
+
+li {
+    padding: 15px 50px;
+}
+
+li:first-child
+{
+	margin-left: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(218,202,203,1.00);
+    font-weight: bold;
+	font-size: 25px;
+}
+
+a:hover {
+    background-color: rgba(252,195,7,1.00);
+}
+
+
+
+
+

@@ -1,0 +1,78 @@
+/* CSS Document */
+body
+{
+	background-image: url("Image/645C220D05D158B612DFD7D77D6B8CE2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.centered-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .text1 {
+            font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+			font-size: 100px;
+			color:rgba(129,92,148,1.00);
+        }
+
+        .text2 {
+            font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+			font-size: 40px;
+			color:rgba(129,92,148,1.00);
+            margin-top: 100px;
+			white-space: nowrap;
+        }
+
+
+nav {
+  
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+li {
+    padding: 15px 50px;
+}
+
+li:first-child
+{
+	margin-left: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(218,202,203,1.00);
+    font-weight: bold;
+	font-size: 25px;
+}
+
+a:hover {
+    background-color: rgba(252,195,7,1.00);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

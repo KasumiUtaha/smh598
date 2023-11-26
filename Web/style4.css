@@ -1,0 +1,113 @@
+/* CSS Document */
+
+
+body
+{
+	background-image: url("../Image/3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+}
+
+ 
+        .content {
+            display: flex;
+        }
+        
+        .left-images,
+        .right-images {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+			width: 20px;
+			height: 20px;
+        }
+		
+		.left-images
+		{
+			margin-left: 1px;
+		}
+
+		.right-images {
+            margin-right: 2px; 
+			transform: translate(175px,0);
+        }
+        
+        .image {
+            margin-bottom: 10px;
+            width: 300px;
+            height: auto;
+			transform: translate(0,200px);
+        }
+        
+        .text {
+            flex: 1;
+            padding: 20px;
+			transform: translate(-200px,200px);
+			white-space: nowrap;
+			width: 400px;
+			font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+			font-size: 20px;
+			color: rgba(129,92,148,1.00);
+        }
+
+		.rimage1,.rimage2
+{
+	 margin-bottom: 10px;
+            width: 300px;
+            height: auto;
+			transform: translate(0,500px);
+}
+
+
+	.limage1,.limage2
+{
+	margin-bottom: 10px;
+            width: 300px;
+            height: auto;
+			transform: translate(0,450px);
+}
+
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+li {
+    padding: 15px 50px;
+}
+
+li:first-child
+{
+	margin-left: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(218,202,203,1.00);
+    font-weight: bold;
+	font-size: 25px;
+}
+
+a:hover {
+    background-color: rgba(252,195,7,1.00);
+}
+
+
+
+
